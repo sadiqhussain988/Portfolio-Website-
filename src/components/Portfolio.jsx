@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
-
+import dashboard from '../assets/dashboard.png'
 const projects = [
   {
     title: "E-Commerce UI",
@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Personal Portfolio",
     description: "Animated portfolio website built with React, Framer Motion & Tailwind.",
-    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80",
+    image: "https://scontent.fbhv2-1.fna.fbcdn.net/v/t39.30808-6/526273804_122263336544024088_7968429583779793027_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFbuqjtXz7w0SMhchBcceUldEWDLlO00LJ0RYMuU7TQsu5rMxOeYs6_SXzMUKCeuww7D607_a3-_PwZL43WWbf1&_nc_ohc=ZQxUPwqGX6AQ7kNvwErzo7q&_nc_oc=Admff8q3Hp4DEtNJrMm-oQPHImW0SoAwocpX9SrrMyAKzsk0DlPyuHYOvyieCWY4XdDjus-GwgBdoFHxaD40WQR3&_nc_zt=23&_nc_ht=scontent.fbhv2-1.fna&_nc_gid=g_vaPOyQksJXsfwvsFrDqA&oh=00_AfW5RjT1xATUVx6A96Qgzhx9CntBDvH61_Ma_G853Ol0dg&oe=68AE7761",
     link: "#",
     github: "#",
     tags: ["React", "Framer Motion", "GSAP"]
@@ -22,9 +22,9 @@ const projects = [
   {
     title: "Admin Dashboard",
     description: "Modern dashboard UI with charts, data tables, and dark mode support.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80",
-    link: "#",
-    github: "#",
+    image: dashboard,
+    link: "https://intern-first.vercel.app/dashboard",
+    github: "https://intern-first.vercel.app/dashboard",
     tags: ["React", "Chart.js", "Dark Mode"]
   },
   {
@@ -46,8 +46,8 @@ const projects = [
   {
     title: "Crypto Dashboard",
     description: "Live price charts, trending coins, and responsive UI using APIs & React.",
-    image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80",
-    link: "#",
+    image:dashboard ,
+    link: "http://portfolio-website-517h.vercel.app",
     github: "#",
     tags: ["React", "CoinGecko API", "Chart.js"]
   },
@@ -123,7 +123,7 @@ const Portfolio = () => {
                 <motion.img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-fill group-hover:scale-105 transition-transform duration-500"
                   initial={{ scale: 1 }}
                   whileHover={{ scale: 1.1 }}
                 />

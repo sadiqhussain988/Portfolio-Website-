@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-scroll";
 import { IoMdDownload } from "react-icons/io";
-
+import Image from '../assets/navimahe.png'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -109,14 +109,14 @@ const Navbar = () => {
         mass: 0.5
       }}
       className={`fixed top-0 left-0 w-full z-[1000] transition-all duration-300 ${
-        isScrolled ? "bg-white/95 shadow-md backdrop-blur-sm" : "bg-white"
+        isScrolled ? "bg-[#EBF3FE] shadow-md backdrop-blur-sm" : "bg-[#EBF3FE]"
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <div className="flex justify-between items-center h-16 md:h-20">
           {/* Logo */}
           <motion.div
-            whileHover={{ scale: 1.05 }}
+            // whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
           >
@@ -130,11 +130,11 @@ const Navbar = () => {
             >
               <motion.span
                 whileHover={{ 
-                  rotate: [0, -5, 5, -3, 3, 0],
+                  // rotate: [0, -5, 5, -3, 3, 0],
                   transition: { duration: 0.6 }
                 }}
               >
-                Sadiq.
+                <img src={Image} className="h-19 w-25" alt="" />
               </motion.span>
             </Link>
           </motion.div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import heroImg from "../assets/hero.webp";
+import heroImg from "../assets/My-image.png";
 import About from "../components/About";
 import Services from "../components/Services";
 import Portfolio from "../components/Portfolio";
