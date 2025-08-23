@@ -167,7 +167,7 @@ const Home = () => {
                 />
               </motion.a>
               <motion.a
-                href="#projects"
+                href="#portfolio"
                 className="inline-block border-2 border-purple-600 text-purple-600 hover:bg-purple-50 px-8 py-3 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-purple-300 text-center"
                 whileHover={{ 
                   y: -3,

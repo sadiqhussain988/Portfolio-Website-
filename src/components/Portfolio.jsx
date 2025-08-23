@@ -2,19 +2,21 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import dashboard from '../assets/dashboard.png'
+import Akoyaimg from '../assets/Akoya Lundary.png'
+import personalportfolio from '../assets/portfolio.png'
 const projects = [
   {
-    title: "E-Commerce UI",
+    title: "Akoya Lundary Website",
     description: "Responsive shopping interface with cart and product filters using React & Tailwind CSS.",
-    image: "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80",
-    link: "#",
+    image:Akoyaimg ,
+    link: "https://akoya-lundary.vercel.app/",
     github: "#",
     tags: ["React", "Tailwind CSS", "Context API"]
   },
   {
     title: "Personal Portfolio",
     description: "Animated portfolio website built with React, Framer Motion & Tailwind.",
-    image: "https://scontent.fbhv2-1.fna.fbcdn.net/v/t39.30808-6/526273804_122263336544024088_7968429583779793027_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFbuqjtXz7w0SMhchBcceUldEWDLlO00LJ0RYMuU7TQsu5rMxOeYs6_SXzMUKCeuww7D607_a3-_PwZL43WWbf1&_nc_ohc=ZQxUPwqGX6AQ7kNvwErzo7q&_nc_oc=Admff8q3Hp4DEtNJrMm-oQPHImW0SoAwocpX9SrrMyAKzsk0DlPyuHYOvyieCWY4XdDjus-GwgBdoFHxaD40WQR3&_nc_zt=23&_nc_ht=scontent.fbhv2-1.fna&_nc_gid=g_vaPOyQksJXsfwvsFrDqA&oh=00_AfW5RjT1xATUVx6A96Qgzhx9CntBDvH61_Ma_G853Ol0dg&oe=68AE7761",
+    image:personalportfolio,
     link: "#",
     github: "#",
     tags: ["React", "Framer Motion", "GSAP"]
@@ -44,7 +46,7 @@ const projects = [
     tags: ["React", "API Integration", "UI/UX"]
   },
   {
-    title: "Crypto Dashboard",
+    title: " Dashboard",
     description: "Live price charts, trending coins, and responsive UI using APIs & React.",
     image:dashboard ,
     link: "http://portfolio-website-517h.vercel.app",

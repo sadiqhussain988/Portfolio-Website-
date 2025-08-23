@@ -134,7 +134,12 @@ const Navbar = () => {
                   transition: { duration: 0.6 }
                 }}
               >
-                <img src={Image} className="h-19 w-25" alt="" />
+                <img 
+  src={Image} 
+  alt="Logo"
+  className="max-h-12 w-auto object-contain sm:max-h-14 md:max-h-16"
+/>
+
               </motion.span>
             </Link>
           </motion.div>
