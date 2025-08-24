@@ -37,7 +37,7 @@ const projects = [
     image:weatherapp ,
     link: "https://weather-app-five-lyart-59.vercel.app/",
     github: "https://github.com/yourusername/weather-app",
-    tags: ["HTML5", "CSS3", "JavaScript", "API"]
+    tags: ["HTML5", "Tailwind CSS", "React", "API"]
   },
   {
     title: "Travel Booking Site",
