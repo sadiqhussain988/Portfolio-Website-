@@ -5,6 +5,7 @@ import dashboard from '../assets/dashboard.png'
 import Akoyaimg from '../assets/Akoya Lundary.png'
 import personalportfolio from '../assets/portfolio.png'
 import chatbot from '../assets/chatbot.png'
+import weatherapp from '../assets/weatherapp.png'
 const projects = [
   {
     title: "Akoya Laundry Website",
@@ -30,13 +31,13 @@ const projects = [
     github: "https://github.com/yourusername/dashboard",
     tags: ["React", "Chart.js", "Dark Mode"]
   },
-  {
-    title: "Landing Page",
-    description: "Marketing landing page featuring smooth animations, responsive design, and mobile-first approach.",
-    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=1600&q=80",
-    link: "https://yourlandingpage.vercel.app/",
-    github: "https://github.com/yourusername/landing-page",
-    tags: ["HTML5", "CSS3", "JavaScript"]
+{
+    title: "Weather App",
+    description: "A responsive weather application that fetches real-time weather data, shows temperature, humidity, and forecast using a clean UI.",
+    image:weatherapp ,
+    link: "https://weather-app-five-lyart-59.vercel.app/",
+    github: "https://github.com/yourusername/weather-app",
+    tags: ["HTML5", "CSS3", "JavaScript", "API"]
   },
   {
     title: "Travel Booking Site",
