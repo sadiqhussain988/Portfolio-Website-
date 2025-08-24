@@ -4,56 +4,58 @@ import { FiExternalLink, FiGithub } from "react-icons/fi";
 import dashboard from '../assets/dashboard.png'
 import Akoyaimg from '../assets/Akoya Lundary.png'
 import personalportfolio from '../assets/portfolio.png'
+import chatbot from '../assets/chatbot.png'
 const projects = [
   {
-    title: "Akoya Lundary Website",
-    description: "Responsive shopping interface with cart and product filters using React & Tailwind CSS.",
-    image:Akoyaimg ,
+    title: "Akoya Laundry Website",
+    description: "Responsive shopping interface with cart, product filters, and modern UI built using React & Tailwind CSS.",
+    image: Akoyaimg,
     link: "https://akoya-lundary.vercel.app/",
-    github: "#",
+    github: "https://github.com/yourusername/akoya-laundry",
     tags: ["React", "Tailwind CSS", "Context API"]
   },
   {
     title: "Personal Portfolio",
-    description: "Animated portfolio website built with React, Framer Motion & Tailwind.",
-    image:personalportfolio,
-    link: "#",
-    github: "#",
+    description: "Animated and interactive personal portfolio built with React, Tailwind CSS, Framer Motion, and GSAP.",
+    image: personalportfolio,
+    link: "https://yourportfolio.vercel.app/",
+    github: "https://github.com/yourusername/portfolio",
     tags: ["React", "Framer Motion", "GSAP"]
   },
   {
-    title: "Admin Dashboard",
-    description: "Modern dashboard UI with charts, data tables, and dark mode support.",
+    title: "Dashboard",
+    description: "Modern admin dashboard with charts, tables, and dark mode support using React & Chart.js.",
     image: dashboard,
     link: "https://intern-first.vercel.app/dashboard",
-    github: "https://intern-first.vercel.app/dashboard",
+    github: "https://github.com/yourusername/dashboard",
     tags: ["React", "Chart.js", "Dark Mode"]
   },
   {
     title: "Landing Page",
-    description: "Marketing landing page with smooth animations and mobile-first design.",
-    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80",
-    link: "#",
-    github: "#",
+    description: "Marketing landing page featuring smooth animations, responsive design, and mobile-first approach.",
+    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=1600&q=80",
+    link: "https://yourlandingpage.vercel.app/",
+    github: "https://github.com/yourusername/landing-page",
     tags: ["HTML5", "CSS3", "JavaScript"]
   },
   {
     title: "Travel Booking Site",
-    description: "Booking interface for flights and hotels with search filters and date pickers.",
-    image: "https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80",
-    link: "#",
-    github: "#",
+    description: "Travel booking interface for flights and hotels with advanced filters and date pickers.",
+    image: "https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=1600&q=80",
+    link: "https://yourtravelapp.vercel.app/",
+    github: "https://github.com/yourusername/travel-booking",
     tags: ["React", "API Integration", "UI/UX"]
   },
   {
-    title: " Dashboard",
-    description: "Live price charts, trending coins, and responsive UI using APIs & React.",
-    image:dashboard ,
-    link: "http://portfolio-website-517h.vercel.app",
-    github: "#",
-    tags: ["React", "CoinGecko API", "Chart.js"]
+    title: "Chatbot",
+    description: "AI-powered chatbot with live data integration, responsive design, and interactive chat UI.",
+    image: chatbot,
+    link: "https://chat-bot-orcin-ten.vercel.app/",
+    github: "https://github.com/yourusername/chatbot",
+    tags: ["React", "APIs", "Chat UI"]
   },
 ];
+
 
 const Portfolio = () => {
   return (
