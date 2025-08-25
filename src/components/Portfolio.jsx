@@ -19,7 +19,7 @@ const projects = [
     title: "Personal Portfolio",
     description: "Animated and interactive personal portfolio built with React, Tailwind CSS, Framer Motion, and GSAP.",
     image: personalportfolio,
-    link: "https://yourportfolio.vercel.app/",
+    link: "http://portfolio-website-517h.vercel.app",
     github: "https://github.com/yourusername/portfolio",
     tags: ["React", "Framer Motion", "GSAP"]
   },

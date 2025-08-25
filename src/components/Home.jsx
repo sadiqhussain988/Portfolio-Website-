@@ -224,7 +224,7 @@ const Home = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 1, duration: 0.6 }}
               >
-                <span className="font-bold">3+ Years</span> Experience
+                <span className="font-bold">3Year + </span> Experience
               </motion.div>
               <motion.div
                 className="absolute -top-4 -left-4 bg-white text-purple-600 px-3 py-1 rounded-full shadow-md text-sm font-bold"
