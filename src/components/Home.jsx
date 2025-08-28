@@ -95,19 +95,46 @@ const Home = () => {
             animate="visible"
           >
             {/* Enhanced Heading */}
-            <motion.div variants={itemVariants}>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
-                Hi, I'm <span className="text-purple-600 relative inline-block">
-                  Sadiq
-                  <motion.span 
-                    className="absolute -bottom-2 left-0 w-full h-1 bg-purple-400"
-                    initial={{ scaleX: 0 }}
-                    animate={{ scaleX: 1 }}
-                    transition={{ delay: 0.4, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-                  />
-                </span>
-              </h1>
-            </motion.div>
+           <motion.div variants={itemVariants}>
+  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
+    Hi, I'm{" "}
+    <span className="text-purple-600 relative inline-block">
+      {/* Animated letters */}
+      <span className="inline-block">
+        {["S", "a", "d", "i", "q"].map((letter, i) => (
+          <motion.span
+            key={i}
+            className="inline-block"
+            initial={{ y: 0 }}
+            animate={{ y: [0, -12, 0] }}
+            transition={{
+              delay: i * 0.1 + 0.4, // stagger after underline starts
+              duration: 0.6,
+              repeat: Infinity,
+              repeatDelay: 1.5,
+              ease: "easeInOut",
+            }}
+          >
+            {letter}
+          </motion.span>
+        ))}
+      </span>
+
+      {/* Underline grow animation */}
+      <motion.span
+        className="absolute -bottom-2 left-0 w-full h-1 bg-purple-400"
+        initial={{ scaleX: 0 }}
+        animate={{ scaleX: 1 }}
+        transition={{
+          delay: 0.2,
+          duration: 0.8,
+          ease: [0.22, 1, 0.36, 1],
+        }}
+      />
+    </span>
+  </h1>
+</motion.div>
+
 
             {/* Typewriter Effect */}
             <motion.div 
