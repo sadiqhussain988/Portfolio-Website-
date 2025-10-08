@@ -6,13 +6,17 @@ import Akoyaimg from '../assets/Akoya Lundary.png'
 import personalportfolio from '../assets/portfolio.png'
 import chatbot from '../assets/chatbot.png'
 import weatherapp from '../assets/weatherapp.png'
+import alkhaldi from "../assets/Al Khaldi.png"
+import zoo from "../assets/zoo.png"
+import quran from "../assets/quran.png"
+import school from "../assets/school.png"
 const projects = [
   {
     title: "Akoya Laundry Website",
     description: "Responsive shopping interface with cart, product filters, and modern UI built using React & Tailwind CSS.",
     image: Akoyaimg,
     link: "https://akoya-lundary.vercel.app/",
-    github: "https://github.com/yourusername/akoya-laundry",
+    github: "https://github.com/Student-In-IUB",
     tags: ["React", "Tailwind CSS", "Context API"]
   },
   {
@@ -20,7 +24,7 @@ const projects = [
     description: "Animated and interactive personal portfolio built with React, Tailwind CSS, Framer Motion, and GSAP.",
     image: personalportfolio,
     link: "http://portfolio-website-517h.vercel.app",
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/Student-In-IUB",
     tags: ["React", "Framer Motion", "GSAP"]
   },
   {
@@ -28,7 +32,7 @@ const projects = [
     description: "Modern admin dashboard with charts, tables, and dark mode support using React & Chart.js.",
     image: dashboard,
     link: "https://intern-first.vercel.app/dashboard",
-    github: "https://github.com/yourusername/dashboard",
+    github: "https://github.com/Student-In-IUB",
     tags: ["React", "Chart.js", "Dark Mode"]
   },
 {
@@ -36,15 +40,15 @@ const projects = [
     description: "A responsive weather application that fetches real-time weather data, shows temperature, humidity, and forecast using a clean UI.",
     image:weatherapp ,
     link: "https://weather-app-five-lyart-59.vercel.app/",
-    github: "https://github.com/yourusername/weather-app",
+    github: "https://github.com/Student-In-IUB",
     tags: ["HTML5", "Tailwind CSS", "React", "API"]
   },
   {
-    title: "Travel Booking Site",
-    description: "Travel booking interface for flights and hotels with advanced filters and date pickers.",
-    image: "https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=1600&q=80",
-    link: "https://yourtravelapp.vercel.app/",
-    github: "https://github.com/yourusername/travel-booking",
+    title: "Al Khaldi",
+    description: "Discover the story behind AL KHALDI Law Firm, our distinguished founder's journey, and our unwavering commitment to excellence in legal services across Qatar and beyond.",
+    image:alkhaldi,
+    link: "https://lawyer-pi-three.vercel.app/",
+    github: "https://github.com/Student-In-IUB",
     tags: ["React", "API Integration", "UI/UX"]
   },
   {
@@ -52,7 +56,31 @@ const projects = [
     description: "AI-powered chatbot with live data integration, responsive design, and interactive chat UI.",
     image: chatbot,
     link: "https://chat-bot-orcin-ten.vercel.app/",
-    github: "https://github.com/yourusername/chatbot",
+    github: "https://github.com/Student-In-IUB",
+    tags: ["React", "APIs", "Chat UI"]
+  },
+  {
+    title: "City Zoo",
+    description: "Zoofari Park at CityZoo offers a place for visitors of all ages to connect with nature and wildlife. ",
+    image:zoo,
+    link: "https://zoo-drab.vercel.app/",
+    github: "https://github.com/Student-In-IUB",
+    tags: ["React", "APIs", "Chat UI"]
+  },
+  {
+    title: "Online Quran Acadmy",
+    description: "At Quran Learn Academy, we strive to enlighten Muslims with the teachings of the Holy Quran, guiding lives according to the principles of Islam. ",
+    image:quran,
+    link: "https://online-quran-rho.vercel.app/",
+    github: "https://github.com/Student-In-IUB",
+    tags: ["React", "APIs", "Chat UI"]
+  },
+  {
+    title: "Online Quran Acadmy",
+    description: "At Quran Learn Academy, we strive to enlighten Muslims with the teachings of the Holy Quran, guiding lives according to the principles of Islam. ",
+    image:school,
+    link: "https://school-management-system-lime-six.vercel.app/",
+    github: "https://github.com/Student-In-IUB",
     tags: ["React", "APIs", "Chat UI"]
   },
 ];
