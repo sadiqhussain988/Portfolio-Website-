@@ -10,6 +10,8 @@ import alkhaldi from "../assets/Al Khaldi.png"
 import zoo from "../assets/zoo.png"
 import quran from "../assets/quran.png"
 import school from "../assets/school.png"
+import carpic from "../assets/carpic.png"
+
 const projects = [
   {
     title: "Akoya Laundry Website",
@@ -76,10 +78,18 @@ const projects = [
     tags: ["React", "APIs", "Chat UI"]
   },
   {
-    title: "Online Quran Acadmy",
-    description: "At Quran Learn Academy, we strive to enlighten Muslims with the teachings of the Holy Quran, guiding lives according to the principles of Islam. ",
+    title: "School Management System",
+    description: "The Comprehensive Tamakon School was established in 2008 to meet the growing societal need for comprehensive services for students with multiple intelligences and capabilities. ",
     image:school,
     link: "https://school-management-system-lime-six.vercel.app/",
+    github: "https://github.com/Student-In-IUB",
+    tags: ["React", "APIs", "Chat UI"]
+  },
+  {
+    title: "Transport Rental Services",
+    description: "At Quran Learn Academy, we strive to enlighten Muslims with the teachings of the Holy Quran, guiding lives according to the principles of Islam. ",
+    image:carpic,
+    link: "https://transport-retal-service.vercel.app/",
     github: "https://github.com/Student-In-IUB",
     tags: ["React", "APIs", "Chat UI"]
   },
