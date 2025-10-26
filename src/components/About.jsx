@@ -35,7 +35,7 @@ const About = () => {
               data-aos="fade-up"
               data-aos-delay="500"
             >
-              <span className="font-bold">5+ Years</span> Experience
+              <span className="font-bold">5Year +</span> Experience
             </div>
           </div>
         </div>
