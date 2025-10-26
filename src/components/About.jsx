@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Skills from "./Skills";
-import aboutImg from "../assets/hero.webp";
+import aboutImg from "../assets/sadiq123.jpg";
 
 const About = () => {
   useEffect(() => {
@@ -35,7 +35,7 @@ const About = () => {
               data-aos="fade-up"
               data-aos-delay="500"
             >
-              <span className="font-bold">3+ Years</span> Experience
+              <span className="font-bold">5+ Years</span> Experience
             </div>
           </div>
         </div>
